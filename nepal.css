@@ -60,7 +60,7 @@ a{
 /* Hero Section */
 .hero {
   position: relative;
-   background: url('nepall.jpg') no-repeat center center/cover;
+   background: url('Kathmandu.jpg') no-repeat center center/cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
