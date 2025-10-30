@@ -472,7 +472,7 @@ a{
     }
 
     .form-section2 {
-      width: 50%;
+      width: 40%;
       background: #f5f9ff;
       padding: 60px 40px;
       display: flex;
@@ -527,7 +527,7 @@ a{
     }
 
     .map-section {
-      width: 50%;
+      width: 40%;
     }
 
     .map-section iframe {
@@ -551,6 +551,7 @@ a{
       display: flex;
       height: 100vh;
       margin-top: 250px;
+        gap:20px;
     }
 
     .form-section2 {
