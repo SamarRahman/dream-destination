@@ -864,6 +864,19 @@ a{
       .scroll-button {
         display: none;
       }
+        .book-section {
+          margin-top: 290px;
+      background: transparent;
+      background-size: cover;
+      background-position: center;
+      height: 10vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
     }
      .hero h1 {
         font-family: 'Playfair Display', serif;
