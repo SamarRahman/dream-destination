@@ -1,0 +1,314 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: #fefefe;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .hero-section {
+  position: relative;
+  height: 100vh;
+  background: url('longdrive.jpg') no-repeat center center/cover;
+}
+
+.socalmedia{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    
+}
+.nav-top {
+  width: 40%;
+  font-size: 16px;
+  float: left;
+  margin-left: 10px;
+  text-decoration: none;
+  
+}
+.mail{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #111;
+}
+.contno{
+    color: #111;
+    margin-left: 5px;
+}
+.socal{
+    float: right;
+    width: 15%;
+    font-size: 1.4rem;
+    color: black;
+    padding-left: 9px;
+}
+
+.navbar {
+    color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 65px;
+}
+a.active,a:hover{
+   color: black;
+    transition: .5s;
+    text-shadow: 60px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+  }
+
+.logo {
+  text-align: center;
+  color: white;
+}
+
+.logo .circle {
+  font-size: 28px;
+}
+
+.logo h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0 0;
+}
+
+.logo p {
+  font-size: 12px;
+  margin-top: -4px;
+}
+
+.content {
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.content h1 {
+  font-size: 6rem;
+  color: #fda838;
+  font-weight: 800;
+}
+
+.content p {
+  max-width: 800px;
+  margin: 20px auto 0;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 2em;
+      color: #0b647a;
+      margin-bottom: 20px;
+      border-left: 5px solid #0b647a;
+      padding-left: 15px;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .destination-options ul,
+    .package-inclusions ul,
+    .special-touches ul,
+    .add-ons ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      padding: 10px 0;
+      font-size: 1.1em;
+    }
+
+    li::before {
+      
+      margin-right: 10px;
+      color: #0b647a;
+    }
+
+    .icon {
+      margin-right: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    
+    
+
+     .book-section {
+      background: transparent;
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .book-section::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 1;
+    }
+
+    .book-content {
+      position: relative;
+      z-index: 2;
+      color: brown;
+    }
+
+    .book-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    }
+
+    .book-btn {
+      background: black;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border: none;
+      padding: 15px 50px;
+      border-radius: 40px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .book-btn:hover {
+      background: #1e90ff;
+      color: #fff;
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    }
+    .footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px 0;
+  font-size: 15px;
+  margin-top: 100px;
+
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.footer-section a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-section p {
+  margin: 10px 0;
+  color: #ccc;
+}
+
+.footer-section i {
+  margin-right: 8px;
+  color: #fff;
+}
+
+.payment-icons img {
+  height: 30px;
+  margin: 5px 10px 0 0;
+  vertical-align: middle;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 13px;
+  color: #aaa;
+  margin-top: 20px;
+}
+.footer a:hover{
+     color: black;
+    transition: .5s;
+    text-shadow: 60px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}

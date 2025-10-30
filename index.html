@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME-Dream destination</title>
+    <link rel="stylesheet" href="pack.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap" rel="stylesheet">
+ 
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+
+<body>
+  <!-- Top Header -->
+  <div class="top-bar">
+    <div class="contact-info">
+     <a href="mailto: samarrahman338@gmail.com"> <span><i class="fa-solid fa-envelope"></i> dreamdestination@gmail.com</span><br></a>
+     <a href="tel:9142546914"> <span><i class="fa-solid fa-phone"></i> +91 9142546914</span></a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/_samar___03?igsh=MWI1NnZyeDM5bzZyZw=="><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/share/1F9DcCfWwG/"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay">
+      <h2>WELCOME TO</h2>
+      <h1>DREAM DESTINATION</h1>
+      <span id="element"></span>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon"><i class="fa fa-bars"></i></label>
+      <ul class="menu">
+        <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="holiday.html">Holiday</a></li>
+        <li><a href="wedding.html">Wedding</a></li>
+        <li><a href="honeymoon.html">Honeymoon</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+ 
+
+    <main>
+    <div class="about">
+        <h3 class="US"><b>ABOUT US</b></h3>
+
+        <p class="thr">Welcome to Dream Destination, your ultimate travel companion to the world’s most breathtaking places! Whether you're seeking serene beaches, vibrant cityscapes, majestic mountains, or cultural treasures, we’re here to turn your travel dreams into reality.
+
+
+Let us take you beyond borders and into the heart of each destination. Discover, explore, and experience the world like never before—with Dream Destination, where your journey begins.</p>
+    </div>
+
+      <section class="honeymoon-section">
+    
+    <div class="honeymoon-container">
+      <div class="honeymoon-image">
+        <img width="160px" height="650px" src="honey.jpg" alt="Couple on Beach" />
+      </div>
+      <div class="honeymoon-content">
+        <h2 class="beachh">Honeymoons</h2>
+        <p>
+          <span class="b">“B</span>egin your forever with a journey wrapped in love and wonder.
+        Let every sunrise whisper promises and every sunset seal memories.
+        Escape to a place where hearts speak louder than words.
+        From candlelit dinners to starry skies, romance lives here.
+        At Dream Destination, your honeymoon becomes a story worth telling. <br> <a class="learn-btn" href="honeymoon.html" target="_blank"> learn more </a></p>
+        </p>
+        
+      </div>
+    </div>
+        </div>
+  </section>     
+ 
+        <section class="holiday-section">
+    <div class="holiday-container">
+      <div class="holiday-content">
+        <h2>Holidays</h2>
+        <p>
+          <span class="t">“T</span>his season, may your heart travel farther than your feet, and your dreams soar higher than the skies." At Dream Destination, we believe every journey begins with a spark of wonder. As the holidays unfold, we invite you to pause, reflect, and embrace the magic of new beginnings. Whether you're exploring distant lands or cherishing moments at home, may this season bring you peace, joy, and unforgettable memories!.
+          <br><a class="learn-btn" href="holiday.html" target="_blank">learn more</a>
+         </p>
+        </div>
+      <div class="holiday-image">
+        <img width="160px" height="650" src="holi.jpg" alt="Couple on Cruise" />
+      </div>
+    </div>
+  </section>
+
+         
+           <section class="weding-section">
+    <div class="left-image">
+      <img width="160px" height="650px" src="weding.jpg" alt="Couple weding">
+    </div>
+    <div class="right-content">
+      <h1>Wedding</h1>
+      <p>
+         💫<span class="e">“E</span>very love story deserves a setting as extraordinary as the bond it celebrates—welcome to Dream Destination, where dreams walk down the aisle.”
+
+          <br><a class="learn-btn" href="wedding.html" target="_blank">learn more</a>
+      </p>
+      
+    </div>
+  </section>
+
+  <section class="popular-tours">
+    <h2>🌟 Popular Tours</h2>
+
+    <button class="scroll-btn scroll-left" onclick="scrollLeft()">&#8592;</button>
+
+    <div class="scroll-container" id="tourScroll">
+
+     <a href="kashmir.html"> <div class="tour-card">
+        <img src="kashmir.webp" alt="Kashmir">
+        <div class="heart-icon">❤️</div>
+        <div class="tour-content">
+          <h3 class="tour-title">Kashmir Paradise</h3>
+          <p class="tour-desc">Snow-capped peaks and scenic lakes.</p>
+          <p class="tour-price">From ₹25,999</p>
+        </div>
+      </div></a>
+
+      <a href="goa.html"><div class="tour-card">
+        <img src="goa.jpg" alt="Goa">
+        <div class="heart-icon">❤️</div>
+        <div class="tour-content">
+          <h3 class="tour-title">Goa Beach Escape</h3>
+          <p class="tour-desc">Sun, sand and party nights.</p>
+          <p class="tour-price">From ₹20,499</p>
+        </div>
+      </div></a>
+
+      <a href="manali.html"><div class="tour-card">
+        <img src="manali-1941787_1920.jpg" alt="Manali">
+        <div class="heart-icon">❤️</div>
+        <div class="tour-content">
+          <h3 class="tour-title">Manali Retreat</h3>
+          <p class="tour-desc">Perfect getaway in the mountains.</p>
+          <p class="tour-price">From ₹22,299</p>
+        </div>
+      </div></a>
+
+      <a href="ooty.html"><div class="tour-card">
+        <img src="ooty.webp" alt="Ooty">
+        <div class="heart-icon">❤️</div>
+        <div class="tour-content">
+          <h3 class="tour-title">Ooty Escape</h3>
+          <p class="tour-desc">Green hills and tea gardens.</p>
+          <p class="tour-price">From ₹18,899</p>
+        </div>
+      </div></a>
+
+      <a href="munnar.html"><div class="tour-card">
+        <img src="munnar.jpg" alt="Munnar">
+        <div class="heart-icon">❤️</div>
+        <div class="tour-content">
+          <h3 class="tour-title">Munnar Nature Tour</h3>
+          <p class="tour-desc">Tea estates & waterfalls.</p>
+          <p class="tour-price">From ₹19,000</p>
+          
+        </div>
+      </div></a>
+
+      <a href="nepal.html"><div class="tour-card">
+        <img src="nepall.jpg" alt="Manali">
+        <div class="heart-icon">❤️</div>
+        <div class="tour-content">
+          <h3 class="tour-title">Nepal</h3>
+          <p class="tour-desc">Perfect getaway in the mountains.</p>
+          <p class="tour-price">From ₹19,299</p>
+        </div>
+      </div></a>
+
+      <a href="mumbai.html"><div class="tour-card">
+        <img src="taj.jpg" alt="Manali">
+        <div class="heart-icon">❤️</div>
+        <div class="tour-content">
+          <h3 class="tour-title">Mumbai dream city</h3>
+          <p class="tour-desc">Perfect getaway in the mountains.</p>
+          <p class="tour-price">From ₹15,299</p>
+           
+        </div>
+      </div></a>
+    </div>
+    <button class="scroll-btn scroll-right" onclick="scrollRight()">&#8594;</button>
+     
+  </section>
+    
+
+
+      <div class="container2">
+    <!-- Left: Form -->
+    <div class="form-section2">
+      <h2>Get in Touch</h2>
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </div>
+
+    <!-- Right: Map -->
+    <div class="map-section">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d130274.26913298956!2d85.05233703174632!3d25.60215363185085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f29937c52d4f05%3A0x831a0e05f607b270!2sPatna%2C%20Bihar!5e0!3m2!1sen!2sin!4v1734602504291!5m2!1sen!2sin" 
+        allowfullscreen="Trusted" 
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+
+
+  <section class="stats-section">
+    <div class="stat-box">
+      <div class="stat-number" data-count="6">0</div>
+      <div class="stat-label">Destination</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number" data-count="10">0</div>
+      <div class="stat-label">Honeymoon & Holidays</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number" data-count="900">0</div>
+      <div class="stat-label">Days in Service</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number" data-count="0">0</div>
+      <div class="stat-label">Complaints</div>
+    </div>
+  </section>
+
+
+             <section class="how-we-work">
+    <h2>HOW WE WORK</h2>
+    <div class="steps-container">
+      <div class="step">
+        <i class="fas fa-handshake"></i>
+        <h3>Enquire and Arrange Your Initial Consultation</h3>
+        <p>I will come to you or you will come to me and share your trip requirements. We can also do it over a call.</p>
+      </div>
+
+      <div class="step">
+        <i class="fas fa-chess"></i>
+        <h3>Your Trusted Travel Specialist</h3>
+        <p>We’ll create a proposal tailored to your needs and budget. You review and suggest changes if needed.</p>
+      </div>
+
+      <div class="step">
+        <i class="fas fa-calendar-check"></i>
+        <h3>Finalize Your Reservation</h3>
+        <p>Once confirmed, we handle all bookings and keep you informed with timely updates and confirmations.</p>
+      </div>
+
+      <div class="step">
+        <i class="fas fa-suitcase-rolling"></i>
+        <h3>Ready Your Luggage</h3>
+        <p>We’ll send your personalized travel pack and offer 24/7 support to assist you throughout your journey.</p>
+      </div>
+    </div>
+  </section>
+             
+
+    <section class="review-section">
+    <h1>What Our Customers Say</h1>
+
+    <div class="scroll-wrapper">
+      <button class="scroll-button scroll-left" onclick="scrollLeft2()">&#8249;</button>
+      <div class="scroll-container2" id="scrollContainer2">
+        <!-- Review Cards -->
+        <div class="review-card">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" class="profile-pic" alt="Customer 1">
+          <div class="reviewer-name">Ayesha Sharma</div>
+          <div class="rating">★★★★★</div>
+          <p class="review-text">Absolutely loved the experience! Everything was perfectly organized and the staff was super friendly.</p>
+        </div>
+
+        <div class="review-card">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" class="profile-pic" alt="Customer 2">
+          <div class="reviewer-name">Rahul Mehta</div>
+          <div class="rating">★★★★☆</div>
+          <p class="review-text">Great service and wonderful destinations. I would recommend this to my friends and family.</p>
+        </div>
+
+        <div class="review-card">
+          <img src="https://randomuser.me/api/portraits/women/55.jpg" class="profile-pic" alt="Customer 3">
+          <div class="reviewer-name">Priya Nair</div>
+          <div class="rating">★★★★★</div>
+          <p class="review-text">It was a dream vacation! Everything from booking to return was smooth and hassle-free.</p>
+        </div>
+
+        <div class="review-card">
+          <img src="https://randomuser.me/api/portraits/men/65.jpg" class="profile-pic" alt="Customer 4">
+          <div class="reviewer-name">Aman Verma</div>
+          <div class="rating">★★★★★</div>
+          <p class="review-text">Best tour experience ever! Highly recommended for all travel lovers.</p>
+        </div>
+
+        <div class="review-card">
+          <img src="https://randomuser.me/api/portraits/women/36.jpg" class="profile-pic" alt="Customer 5">
+          <div class="reviewer-name">Simran Kaur</div>
+          <div class="rating">★★★★☆</div>
+          <p class="review-text">We had an amazing time. The hotel and sightseeing were all top-notch.</p>
+        </div>
+      </div>
+      <button class="scroll-button scroll-right" onclick="scrollRight2()">&#8250;</button>
+    </div>
+  </section>
+
+  <!-- Hero Section -->
+
+
+<!-- CEO Message -->
+<div class="container">
+  <div class="hero">
+    <h1>Message from Our CEO</h1>
+    <div class="ceo-img">
+        <img src="samarrahman.jpg" alt="CEO Photo">
+    </div>
+</div>
+    
+    <div class="message">
+        <h2>Welcome to Dream Destination</h2>
+        <p>
+            At Dream Destination, we believe travel is not just about visiting places; it’s about creating 
+            memories that last a lifetime. Our passion is to craft journeys that inspire, surprise, and delight 
+            every traveler.
+        </p>
+        <p>
+            As CEO, I’m proud to lead a team of dream-makers who turn your travel aspirations into reality. 
+            From serene escapes to adventurous expeditions, our commitment is to ensure each trip exceeds 
+            your expectations.
+        </p>
+        <div class="signature">
+            — Samar Rahman, CEO & Founder
+        </div>
+    </div>
+</div>
+  
+
+   <section class="book-section">
+    <div class="book-content">
+      <h1>BOOK YOUR TOUR NOW</h1>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScoDS2IzKOCWG2msy28lP92JYzZEP9P4fbR4qBsti9i7c6V2w/viewform?usp=sharing&ouid=103943610430188679023" target="_blank" class="book-btn">BOOK</a>
+    </div>
+  </section>
+
+                 <footer class="footer">
+  <div class="footer-container">
+    <!-- Contact Info -->
+    <div class="footer-section">
+      <h3>CONTACT INFO</h3>
+      <p><i class="fas fa-phone-alt"></i> +919142546914</p>
+      <p><i class="fas fa-envelope"></i>dreamdestination@gmail.com</p>
+      <p>&copy; 2025 DD Travels<br>All Rights Reserved.</p>
+    </div>
+
+    <!-- About Us -->
+    <div class="footer-section">
+      <h3>LOCATION</h3>
+     <P> Paradise Avenue <br> boring road, patna,bihar 800014 <P></P>
+    </div>
+
+    <!-- Support -->
+    <div class="footer-section">
+      <h3>SUPPORT</h3>
+      <a href="#">Customer Support</a>
+      <a href="#">Privacy & Policy</a>
+      <a href="#">Contact Channels</a>
+    </div>
+
+    <!-- Payment Info -->
+    <div class="footer-section">
+      <h3>PAY SAFELY WITH US</h3>
+      <p>Your payment is securely encrypted and<br>transmitted using SSL technology to ensure complete safety.</p>
+      <div class="payment-icons">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="MasterCard" />
+        <img src="amc.webp" alt="American Express" />
+        <img src="JCB.png" alt="JCB" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Footer -->
+  <div class="footer-bottom">
+    <p>COPYRIGHT 2025 DD, ALL RIGHT RESERVED</p>
+  </div>
+</footer>
+<script src="pack.js"></script>
+<!-- Font Awesome (for icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+               
+           
+          
+          <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>EXPLORE THE WORLD', ' ENJOY THE JOURNEY',' EXPERIENCE THE WORLD.'],
+      typeSpeed: 50,
+    });
+
+   
+  </script> 
+      <script src="pack.js"></script>    
+</body>
+
+
+</html>
