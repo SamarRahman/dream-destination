@@ -469,6 +469,7 @@ a{
 .container2{
       display: flex;
       height: 100vh;
+      gap:80px;
     }
 
     .form-section2 {
@@ -528,6 +529,7 @@ a{
 
     .map-section {
       width: 40%;
+    
     }
 
     .map-section iframe {
